@@ -2,4 +2,4 @@
 ``` docker run -it -v `pwd`:/code -w /code gcc bash ```
 
 ## how run this project
-```gcc hello-world.c -o bin/hello_world
+```gcc hello-world.c -o bin/hello_world ```
