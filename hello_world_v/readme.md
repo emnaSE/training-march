@@ -3,4 +3,5 @@
 
 ## how run this project
 ```mkdir bin```
+
 ```v hello-world.v -o bin/hellov ```
