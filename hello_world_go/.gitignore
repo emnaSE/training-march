@@ -1,0 +1,27 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_vendor/
+bin/
+pkg/
+
+# Output files
+*.out
+
+# IDEs and Editors
+.idea/
+.vscode/
+
+# Go specific
+*.exe
+*.test
+*.prof
+*.coverage
+*.test_coverage.txt
+
+# Other
+.DS_Store
+Thumbs.db
