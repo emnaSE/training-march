@@ -5,3 +5,4 @@
 ```mkdir bin```
 
 ```v hello-world.v -o bin/hellov ```
+``` bin/helloV```

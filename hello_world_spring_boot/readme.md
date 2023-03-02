@@ -4,7 +4,7 @@
 
 ``` ./gradlew build ```
 
-```java -jar build/libs/hello_world_springboot-0.0.1-SNAPSHOT.jar  ```
+```java -jar build/libs/training-0.0.1-SNAPSHOT.jar  ```
 
 
 

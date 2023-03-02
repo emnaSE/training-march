@@ -1,6 +1,7 @@
 ## How to run dev environment
 ```  docker run -it -v `pwd`:/code -w /code -p 4200:4200 ange10k/angularcli  bash ``` 
 ```cd angular-sqoin ```
+```npm install ```
 ``` ng serve  --host=0.0.0.0 ```
 
 

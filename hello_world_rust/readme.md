@@ -12,4 +12,4 @@
 ## How to run this project with build
 ``` docker build -t ammou/rust-build -f dockerfile-run . ```
 
-```docker run -it -v `pwd`:/code -w /code  -p 8010:8000 ammou/rust-build ```
+```docker run  -p 8010:8000 ammou/rust-build ```

@@ -3,7 +3,7 @@
 
 ## How to build  this project inside docker 
 
-``` docker run -it -v `pwd`:/code -w /code -p 5001:5000  ammou/python-flask  bash ```
+``` docker run  -p 5001:5000  ammou/python-flask  bash ```
 
 ``` python hello-world.py```
 
