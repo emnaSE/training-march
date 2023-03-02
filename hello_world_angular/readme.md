@@ -7,3 +7,8 @@
 
 <img width="831" alt="image" src="https://user-images.githubusercontent.com/50323642/222401982-a83d7109-05fb-4d43-847a-c646f71030ef.png">
 
+
+## How to run this project from build
+```docker build -t ammou/angular-ngnix .```
+
+```docker run   -p 8088:80 ammou/angular-ngnix ```
