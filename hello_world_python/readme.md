@@ -1,4 +1,4 @@
-## How to build  the dev envirment
+## How to build  the dev environment
 ``` docker build -t ammou/python-flask .  ```
 
 ## How to build  this project inside docker 
