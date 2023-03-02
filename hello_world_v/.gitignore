@@ -1,0 +1,27 @@
+# V build artifacts
+**/*.o
+**/*.exe
+**/*.out
+**/*.vexe
+**/*.debug
+
+# Ignore the 'build' directory, if it exists
+/build
+/bin
+# Ignore the 'vendor' directory, if it exists
+/vendor
+
+# Ignore any editor-specific files
+.vscode
+.idea
+
+# Ignore any temporary files
+*.tmp
+*.bak
+*~
+
+# Ignore any compiled language files, if your project includes them
+*.class
+*.pyc
+*.jar
+*.war
