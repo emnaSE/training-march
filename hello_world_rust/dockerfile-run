@@ -1,0 +1,7 @@
+FROM rust
+
+WORKDIR  /app
+
+COPY  target/release/code  .
+
+CMD ["/app/code"] 
