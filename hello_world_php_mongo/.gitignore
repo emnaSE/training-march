@@ -1,0 +1,19 @@
+# PHP files
+*.php
+*.php~ 
+
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# Logs and caches
+/log/
+/tmp/
+/cache/
+
+# User-specific files
+/.env
+/.env.local
+/.env.*.php
+/phpunit.xml
+/phpunit_*.xml

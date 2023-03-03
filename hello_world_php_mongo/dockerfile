@@ -1,0 +1,10 @@
+FROM php:8.0-cli
+
+RUN pecl install mongodb \
+    && docker-php-ext-enable mongodb
+
+COPY index.php /var/www/html/
+
+EXPOSE 80
+
+
