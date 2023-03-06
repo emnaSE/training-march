@@ -1,8 +1,8 @@
 #!/bin/bash
 source config.ini
-echo $dest_dir
+
 # Create dencrypted zip file
-unzip -P "$PASSWORD"  "$DEST_DIR" 
+unzip -P "$PASSWORD"  "$ZIP_DIR" 
 
 # Check if Docker is installed
 if ! command -v docker &> /dev/null
@@ -19,4 +19,23 @@ then
 fi
 
 echo "Docker is running."
+
+
+# Check if the image exists
+if ! docker image inspect "$IMAGE_NAME" &> /dev/null
+then
+    echo "Image does not exist. Pulling image..."
+    docker pull "$IMAGE_NAME"
+fi 
+
+echo "Image exists."  
+
+#run the container
+docker run -d -p 80:80 "$IMAGE_NAME"
+
+
+                                                                        
+
+
+
 
