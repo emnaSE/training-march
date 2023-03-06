@@ -1,0 +1,11 @@
+FROM mongo
+
+WORKDIR /app
+
+COPY init.js /docker-entrypoint-initdb.d/init.js
+
+COPY data /app/data
+
+Expose 27017
+
+CMD [ "mongod", "--dbpath", "/data/db" ]

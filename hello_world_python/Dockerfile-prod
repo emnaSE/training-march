@@ -11,6 +11,6 @@ COPY requirements.txt  /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 
-COPY hello.py  /app
+COPY hello-world.py  /app
 
-CMD [ "python", "hello.py" ]
+CMD [ "python", "hello-world.py" ]

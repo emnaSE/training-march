@@ -1,0 +1,9 @@
+FROM thevlang/vlang:latest
+
+WORKDIR /app
+
+COPY  /bin/hellov  /app/
+
+EXPOSE 8089
+
+CMD ["/app/hellov"]

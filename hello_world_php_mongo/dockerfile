@@ -5,6 +5,7 @@ RUN pecl install mongodb \
 
 COPY index.php /var/www/html/
 
-EXPOSE 80
+EXPOSE 8050
 
 
+CMD [ "php", "-S", "172.19.0.12:8050", "-t", "/var/www/html" ]
