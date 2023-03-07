@@ -1,5 +1,5 @@
 
-# My GitHub Repository
+# My Training Repository
   This repository contains several "hello world" projects in different programming languages.
 
 ## Projects
