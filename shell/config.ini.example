@@ -1,3 +1,4 @@
+[Email]
 TO_EMAIL="youremail@gmail.com"
 FROM_EMAIL="youremail@gmail.com"
 SMTP_SERVER="your smtp server"
@@ -5,10 +6,18 @@ SMTP_PORT="your smtp port"
 SMTP_USERNAME="your username"
 SMTP_PASSWORD="your password"
 SUBJECT="your subjet"
+
+[Login]
 PASSWORD="PASSWORD"
 SERVER="username@ipaddress"
+
+[Memory]
 THRESHOLD="number"
+
+[Folders]
 SRC_DIR="path/to/folder"
 DEST_SRC="path/to/folder"
 ZIP_DIR="path/to/folder"
+
+[Docker]
 IMAGE_NAME="name of image"
