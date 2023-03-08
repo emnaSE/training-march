@@ -33,8 +33,8 @@ let callOpenAi = async (prompt) => {
 async function generateText() {
   for (const question of questions) {
     const response = await callOpenAi(question);
-    console.log(`Question: ${question}`);
-    console.log(`Answer:  ${response}`);
+    console.log(`prompt: ${question}`);
+    console.log(`completion:  ${response}`);
     console.log("---------------------");
   }
 }generateText();
@@ -75,8 +75,8 @@ async function generateText() {
     const obj = { question, response };
     data.push(obj);
 
-    console.log(`Question: ${question}`);
-    console.log(`Answer:  ${response}`);
+    console.log(`prompt: ${question}`);
+    console.log(`completion:  ${response}`);
     console.log("---------------------");
   }
 
@@ -90,7 +90,7 @@ async function generateText() {
 
   for (const obj of data) {
     const json = JSON.stringify(obj);
-    const jsonl = `${json}\n`;
+    const jsonl = `[${json}]\n`;
     fs.appendFile("output.jsonl", jsonl, (err) => {
       if (err) {
         console.error(err);
