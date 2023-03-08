@@ -1,0 +1,57 @@
+{
+  "id": "17b3cdc2-49c2-4de0-930e-c476bd450a68",
+  "version": "2.0",
+  "name": "novafi",
+  "url": "https://app.novafi.xyz",
+  "tests": [{
+    "id": "70265ae0-5e60-40fa-ab92-3b150dc6f79c",
+    "name": "test_connect",
+    "commands": [{
+      "id": "3c4921ed-9097-4a8a-891c-318d29c3038e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd29dc59-449d-4531-a5e4-4c0a3dd11e98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1512x854",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f85e692-2e4f-4a48-aa00-7b4bab6e6614",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/main/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc639333-8f8f-43c7-9168-9d97e40b8ce3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Phantom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ed9e50b5-7bbd-465d-be28-cbf559bcaddb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["70265ae0-5e60-40fa-ab92-3b150dc6f79c"]
+  }],
+  "urls": ["https://app.novafi.xyz/"],
+  "plugins": []
+}
