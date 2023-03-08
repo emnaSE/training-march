@@ -45,3 +45,7 @@ Hello mongo
 OpenAI
 
 🕗 in progress
+
+readme.md  in all project
+🕗 in progress
+ 
