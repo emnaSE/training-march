@@ -1,43 +1,47 @@
 Hello world V :
 
- ✅ Development 
+✅ Development
 
- ✅ Deployment
- 
+✅ Deployment
+
 Hello world C :
 
- ✅ Development 
+✅ Development
 
- ❌ Deployment
- 
-Research in Docker DNS : 
- 
- 🕗 in progress
+❌ Deployment
+
+Research in Docker DNS :
+
+🕗 in progress
 
 Hello world python
 
- ✅ Development 
+✅ Development
 
- ✅ Deployment (http://training2.sqoin.net/articles)
+✅ Deployment (http://training2.sqoin.net/articles)
 
 Hello world php mongo
 
- ✅ Development 
+✅ Development
 
- ✅ Deployment (http://training2.sqoin.net/phpmongo)
+✅ Deployment (http://training2.sqoin.net/phpmongo)
 
 Hello world spring boot
 
- ✅ Development 
+✅ Development
 
- ✅ Deployment (http://training2.sqoin.net/springboot)
+✅ Deployment (http://training2.sqoin.net/springboot)
 
 Shell
 
- 🕗 in progress
+✅ Development
 
 Hello mongo
- 
- ✅ Development  
 
- ✅ Deployment
+✅ Development
+
+✅ Deployment
+
+OpenAI
+
+🕗 in progress
