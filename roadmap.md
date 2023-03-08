@@ -44,8 +44,9 @@ Hello mongo
 
 OpenAI
 
-🕗 in progress
+🕗 in progress generate fichier jsonl
 
 readme.md  in all project
+
 🕗 in progress
  
