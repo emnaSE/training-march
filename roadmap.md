@@ -18,19 +18,19 @@ Hello world python
 
 ✅ Development
 
-✅ Deployment (http://training2.sqoin.net/articles)
+✅ Deployment (https://training2.sqoin.net/articles)
 
 Hello world php mongo
 
 ✅ Development
 
-✅ Deployment (http://training2.sqoin.net/phpmongo)
+✅ Deployment (https://training2.sqoin.net/phpmongo)
 
 Hello world spring boot
 
 ✅ Development
 
-✅ Deployment (http://training2.sqoin.net/springboot)
+✅ Deployment (https://training2.sqoin.net/springboot)
 
 Shell
 
